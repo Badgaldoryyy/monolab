@@ -1,0 +1,18 @@
+id,color_code,color_name_mn,color_hex,pla_code,active
+1,white,Цагаан,#FFFFFF,11100,TRUE
+2,beige,Бэйж,#F5F5DC,11401,TRUE
+3,gray,Саарал,#808080,11180,TRUE
+4,black,Хар,#000000,11101,TRUE
+5,blue,Цэнхэр,#4A90E2,11600,TRUE
+6,sky_blue,Тэнгэр цэнхэр,#87CEEB,11401,TRUE
+7,navy,Хар цэнхэр,#000080,11602,TRUE
+8,purple,Ягаан,#9B59B6,11700,TRUE
+9,lilac,Нил ягаан,#C8A2C8,11701,TRUE
+10,pink,Ягаан,#FF69B4,11201,TRUE
+11,red,Улаан,#E74C3C,11200,TRUE
+12,orange,Улбар шар,#FF9800,11300,TRUE
+13,yellow,Шар,#F1C40F,11400,TRUE
+14,green,Ногоон,#2ECC71,11400,TRUE
+15,olive,Чидун ногоон,#808000,11501,TRUE
+16,brown,Бор,#A52A2A,11600,TRUE
+17,light_brown,Цайвар бор,#D2691E,11801,TRUE

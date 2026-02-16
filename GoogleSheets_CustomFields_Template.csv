@@ -1,0 +1,9 @@
+field_code,field_name_mn,field_type,placeholder,required
+baby_name,Хүүхдийн нэр,text,Жишээ нь: Болд,TRUE
+birth_date,Төрсөн огноо,date,,TRUE
+weight,Жин (кг),text,3.5,TRUE
+height,Өндөр (см),text,50,TRUE
+birth_time,Төрсөн цаг,time,,TRUE
+text_custom,Бичих текст,text,Текст оруулна уу,TRUE
+name_custom,Нэр,text,Нэр оруулна уу,TRUE
+phone_custom,Утасны дугаар,tel,99001122,FALSE

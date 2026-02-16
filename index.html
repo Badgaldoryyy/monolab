@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MONOLAB - Улаанбаатарт 3D хэвлэлийн захиалгат бүтээгдэхүүн. Хүүхдийн дурсгал болон бусад 3D хэвлэлийн бүтээгдэхүүн.">
+    <meta name="keywords" content="3D хэвлэл, Улаанбаатар, хүүхдийн дурсгал, захиалгат бүтээгдэхүүн, монгол">
+    <title>MONOLAB - 3D Хэвлэлийн Бүтээгдэхүүн | Улаанбаатар</title>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts - Roboto supports Cyrillic -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">
+                    <img src="https://www.genspark.ai/api/files/s/p7t6ZaR2" alt="MONOLAB" class="logo-image">
+                    <div class="logo-text">
+                        <h1>MONOLAB</h1>
+                        <p class="tagline">3D Хэвлэлийн Бүтээгдэхүүн</p>
+                    </div>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Нүүр</a></li>
+                    <li><a href="#bestseller" class="nav-link">Хит бүтээгдэхүүн</a></li>
+                    <li class="nav-dropdown">
+                        <a href="#products" class="nav-link">Бүтээгдэхүүн <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#products" class="dropdown-link"><i class="fas fa-gift"></i> Бэлэг дурсгал</a></li>
+                            <li><a href="#products" class="dropdown-link"><i class="fas fa-shopping-bag"></i> Цүнх хэрэгсэл</a></li>
+                            <li><a href="#products" class="dropdown-link"><i class="fas fa-home"></i> Интерьер чимэглэл</a></li>
+                            <li><a href="#products" class="dropdown-link"><i class="fas fa-calendar-alt"></i> Улирлын бүтээгдэхүүн</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about" class="nav-link">Бидний тухай</a></li>
+                    <li><a href="#contact" class="nav-link">Холбоо барих</a></li>
+                    <li><a href="#cart" class="nav-link cart-link">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">3D хэвлэлийн бүтээгдэхүүн</h2>
+                <p class="hero-subtitle">Олон төрлийн бэлэн загвараас сонгоорой</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Бүтээгдэхүүн үзэх</a>
+                    <a href="#contact" class="btn btn-secondary">Холбоо барих</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-truck"></i>
+                        <span>1-3 өдөрт бэлэн</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-palette"></i>
+                        <span>Өнгө сонгох боломжтой</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-edit"></i>
+                        <span>Захиалгат мэдээлэл</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bestseller Section -->
+    <section id="bestseller" class="bestseller-section">
+        <div class="container">
+            <h2 class="section-title">Хит борлуулалттай бүтээгдэхүүн</h2>
+            <p class="section-subtitle">Манай хамгийн алдартай бүтээгдэхүүнүүд</p>
+            
+            <div class="products-grid">
+                <!-- Bestseller products will be added here later -->
+                <div class="product-card placeholder-card">
+                    <div class="placeholder-content">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>Бүтээгдэхүүн нэмэх</p>
+                    </div>
+                </div>
+                <div class="product-card placeholder-card">
+                    <div class="placeholder-content">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>Бүтээгдэхүүн нэмэх</p>
+                    </div>
+                </div>
+                <div class="product-card placeholder-card">
+                    <div class="placeholder-content">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>Бүтээгдэхүүн нэмэх</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <h2 class="section-title">Бүтээгдэхүүний ангилал</h2>
+            <p class="section-subtitle">Таны хэрэгцээнд тохирсон ангиллаас сонгоорой</p>
+            
+            <!-- Category Cards -->
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3 class="category-title">Бэлэг дурсгал</h3>
+                    <p class="category-description">Онцгой мөчүүдийн дурсгал, хүүхдийн төрсний бэлэг</p>
+                    <div class="category-badge">Хит</div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3 class="category-title">Цүнх хэрэгсэл</h3>
+                    <p class="category-description">Түлхүүр өлгүүр, цүнхний чимэглэл, багийн хэрэгсэл</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="category-title">Интерьер чимэглэл</h3>
+                    <p class="category-description">Гэрийн чимэглэл, ханын декор, тавиур хэрэгсэл</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3 class="category-title">Улирлын бүтээгдэхүүн</h3>
+                    <p class="category-description">Шинэ жил, Halloween, Зул, болон бусад баярын чимэглэл</p>
+                    <div class="category-badge seasonal">Улирал</div>
+                </div>
+            </div>
+            
+            <!-- Featured Product Example -->
+            <h3 class="section-subtitle" style="margin-top: 4rem; margin-bottom: 2rem;">Онцлох бүтээгдэхүүн</h3>
+            <div class="products-grid">
+                <!-- Product Card -->
+                <div class="product-card" data-product-id="1">
+                    <div class="product-image">
+                        <img src="https://www.genspark.ai/api/files/s/s45aRmVk?token=Z0FBQUFBQnBrVHFnclNHX0xxUGt4aG1lTUttY0dBdVpGektFa0RLUHlTSGJQTnlMSENtMkJuZ3luS1lKWjdCMG5Xem12YnAxTWRHTFdBQjhWZHo2OHN3MG8tQ2FjMVZ3UDVUbTBMR3d5Tl95U3B6WU4zRDFQU3R4em1vMDR2Qk5EQ0FkX19JdWdWZzVwb2dtUE5zd3pJSHdBRkQwQ0NUbmduazByaGhYR0w4eGRudDY0UDVFVVdaNmRuS1JuektvWjJsYWVmaFNMODROWjV2V2V2ZVZVTGQtZWlmSWc1amdHLVZkS1hWamFjR1lLVjRmZzQ4RWpXbDB0RURPaV9WLXZwbTJIZDVfcnhKMnE5RUNCd0tnMzI4YldodXB0bjBwYVE9PQ" alt="Хүүхдийн дурсгал">
+                        <div class="product-badge">Шинэ</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-code">C003</div>
+                        <h3 class="product-title">Хүүхдийн дурсгал</h3>
+                        <p class="product-description">Танай хүүхдийн төрсөн өдрийн мэдээллийг захиалгат хэвлэсэн онцгой дурсгал</p>
+                        <div class="product-price">
+                            <span class="price">40,000₮</span>
+                        </div>
+                        <div class="product-meta">
+                            <span><i class="fas fa-clock"></i> 1-3 өдөр</span>
+                            <span><i class="fas fa-palette"></i> Олон өнгө</span>
+                        </div>
+                        <button class="btn btn-primary btn-full" onclick="openProductModal(1)">
+                            Дэлгэрэнгүй харах
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">MONOLAB-ын тухай</h2>
+                    <p>Олон төрлийн бүтээгдэхүүнийг 3D хэвлэлээр бүтээдэг үйлчилгээ юм. Бэлэг дурсгал болон янз бүрийн хэрэгтэй бүтээгдэхүүнийг хэвлэж байна.</p>
+                    
+                    <p>Өндөр чанарын 3D хэвлэгч ашиглан, олон төрлийн бэлэн загвараас сонгож, өөрийн хүссэн өнгөөр захиалж болно.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Чанартай материал</h4>
+                                <p>Bambu Lab original PLA ашигладаг</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Захиалгад тохируулсан хугацаа</h4>
+                                <p>Бүтээгдэхүүнээс хамааран 1-3 өдөр</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Олон өнгө</h4>
+                                <p>20+ өнгөний сонголт</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://www.genspark.ai/api/files/s/sZpeVaLn?token=Z0FBQUFBQnBrVHFnelM0dkJqQlo3bkNlaFVCSUVQNGZBazYxbXp5Tl93bE9PZWlmNk1LblRhaTM3VjFYT1BtanNycEg0VGtVMDNEejNRTDhwSjFwejJhdHNCSnZpUW9ZaS1Da0dnLVR4cjdueDhkTHpSX3Z5MUNBNUl6bXlNMm9MRjFualV4YnFyaEw5N2V1eGFVakU3aEhTY1laOWlGeW00Sm02OWxfYk8xMEtQN1V0TFRQdy00S0Y1cWdMNk5kMzdkTGZ3di1FeXZlZnBma0lMUGE3S0pUQnhyQlhRS0JrU1ZXUWhVVW1PYUJvVEg3dk9CSHBMMmxJa19yb0ZXQmFYWDNkTjYtWnhqT0Vld0JFZkJDLXlVZ1AwTHNwajFlNHc9PQ" alt="PLA өнгөний сонголт">
+                    <div class="image-caption">20+ өнгөний сонголт</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Холбоо барих</h2>
+            <p class="section-subtitle">Асуулт, захиалга байвал бидэнтэй холбогдоорой</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Хэвлэл очиж авах хаяг</h4>
+                            <p>📍 Соёлж Mall, 2-р давхар, 211 тоот</p>
+                            <p style="margin-top: 0.5rem; color: var(--text-light); font-size: 0.9rem;">Улаанбаатар хот, Монгол улс</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Утас</h4>
+                            <p><a href="tel:86667000">86667000</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Ажлын цаг</h4>
+                            <p>Даваа - Баасан: 09:00 - 18:00</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Сошиал хаяг</h4>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/monolab_3dprint" target="_blank" class="social-icon">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://facebook.com/monolab_3dprint" target="_blank" class="social-icon">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://tiktok.com/@monolab_3dprint" target="_blank" class="social-icon">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                        </div>
+                        <p class="social-handle">@monolab_3dprint</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="contact-name">Таны нэр *</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-phone">Утасны дугаар *</label>
+                            <input type="tel" id="contact-phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Мессеж</label>
+                            <textarea id="contact-message" name="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Илгээх</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MONOLAB</h3>
+                    <p>3D хэвлэлийн захиалгат бүтээгдэхүүн Улаанбаатарт</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/monolab_3dprint" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/monolab_3dprint" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://tiktok.com/@monolab_3dprint" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Холбоосууд</h4>
+                    <ul>
+                        <li><a href="#home">Нүүр</a></li>
+                        <li><a href="#products">Бүтээгдэхүүн</a></li>
+                        <li><a href="#about">Бидний тухай</a></li>
+                        <li><a href="#contact">Холбоо барих</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Холбоо барих</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 86667000</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Улаанбаатар, Монгол</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MONOLAB. Бүх эрх хуулиар хамгаалагдсан.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalProductImage" src="" alt="Product">
+                </div>
+                <div class="modal-details">
+                    <h2 id="modalProductTitle">Бүтээгдэхүүн</h2>
+                    <p id="modalProductDescription"></p>
+                    <div class="modal-price">
+                        <span class="price" id="modalProductPrice">0₮</span>
+                    </div>
+                    
+                    <div class="product-options">
+                        <!-- Shape Color Selection (동적 생성) -->
+                        <div id="shapeColorsSection" class="option-group" style="display: none;">
+                            <label class="option-label">Дүрсний өнгө *</label>
+                            <p class="option-hint">Үндсэн өнгө</p>
+                            <div id="shapeColorsContainer" class="color-options">
+                                <!-- JavaScript로 동적 생성 -->
+                            </div>
+                        </div>
+                        
+                        <!-- Text Color Selection (동적 생성) -->
+                        <div id="textColorsSection" class="option-group" style="display: none;">
+                            <label class="option-label">Текстийн өнгө *</label>
+                            <p class="option-hint">Мэдээлэл хэвлэгдэх өнгө</p>
+                            <div id="textColorsContainer" class="color-options-grid">
+                                <!-- JavaScript로 동적 생성 -->
+                            </div>
+                        </div>
+                        
+                        <!-- Custom Fields (동적 생성) -->
+                        <div id="customFieldsSection" class="option-group" style="display: none;">
+                            <label class="option-label">Захиалгат мэдээлэл</label>
+                            <p class="option-hint">Хэвлэгдэх мэдээллээ оруулна уу</p>
+                            <div id="customFieldsContainer" class="custom-fields">
+                                <!-- JavaScript로 동적 생성 -->
+                            </div>
+                        </div>
+                        
+                        <!-- Quantity -->
+                        <div class="option-group">
+                            <label class="option-label">Тоо ширхэг</label>
+                            <div class="quantity-selector">
+                                <button type="button" class="qty-btn" onclick="decreaseQty()">-</button>
+                                <input type="number" id="quantity" value="1" min="1" readonly>
+                                <button type="button" class="qty-btn" onclick="increaseQty()">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-actions">
+                        <button class="btn btn-secondary btn-full" onclick="addToCartFromSheets()">
+                            <i class="fas fa-shopping-cart"></i> Сагсанд нэмэх
+                        </button>
+                        <button class="btn btn-primary btn-full" onclick="orderNowFromSheets()">
+                            <i class="fas fa-bolt"></i> Шууд захиалах
+                        </button>
+                    </div>
+                    
+                    <div class="product-meta-info">
+                        <div class="meta-item">
+                            <i class="fas fa-truck"></i>
+                            <span>Хүргэлтийн төлбөр: 6,000₮</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Бэлтгэх хугацаа: 1-3 өдөр</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Warning Section -->
+                    <div class="product-warnings">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Анхааруулга</h4>
+                        <ul class="warning-list">
+                            <li><i class="fas fa-temperature-high"></i> PLA материал нь халуунд мэдрэмтгий (халуун газар хадгалахгүй)</li>
+                            <li><i class="fas fa-palette"></i> Өнгө нь дэлгэц болон бодит байдалд ялгаатай байж болно</li>
+                            <li><i class="fas fa-ban"></i> Захиалгат хэвлэсний дараа солих/буцаах боломжгүй</li>
+                            <li><i class="fas fa-check-double"></i> Захиалга баталгаажуулахаас өмнө мэдээллээ сайтар шалгана уу</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2><i class="fas fa-shopping-cart"></i> Таны сагс</h2>
+            </div>
+            <div class="modal-body">
+                <div id="cartItems" class="cart-items">
+                    <!-- Cart items will be inserted here -->
+                </div>
+                <div class="cart-summary">
+                    <div class="summary-row">
+                        <span>Бүтээгдэхүүний дүн:</span>
+                        <span id="cartSubtotal">0₮</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Хүргэлтийн төлбөр:</span>
+                        <span id="cartDelivery">6,000₮</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Нийт дүн:</span>
+                        <span id="cartTotal">0₮</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-full" onclick="proceedToCheckout()" id="checkoutBtn">
+                    Захиалга баталгаажуулах
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Order Modal -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content order-modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2><i class="fas fa-file-invoice"></i> Захиалга баталгаажуулах</h2>
+            </div>
+            <div class="modal-body">
+                <form id="orderForm" class="order-form">
+                    <h3>Хүлээн авах арга *</h3>
+                    <div class="delivery-options">
+                        <label class="delivery-option">
+                            <input type="radio" name="deliveryMethod" value="pickup" id="deliveryPickup" checked>
+                            <div class="delivery-card">
+                                <div class="delivery-icon">
+                                    <i class="fas fa-store"></i>
+                                </div>
+                                <div class="delivery-details">
+                                    <h4>Өөрөө ирж авах</h4>
+                                    <p>📍 Соёлж Mall, 2-р давхар, 211 тоот</p>
+                                    <p class="delivery-price">Үнэгүй</p>
+                                </div>
+                            </div>
+                        </label>
+                        <label class="delivery-option">
+                            <input type="radio" name="deliveryMethod" value="delivery" id="deliveryHome">
+                            <div class="delivery-card">
+                                <div class="delivery-icon">
+                                    <i class="fas fa-shipping-fast"></i>
+                                </div>
+                                <div class="delivery-details">
+                                    <h4>Хүргэлт</h4>
+                                    <p>Гэрт хүргэж өгнө</p>
+                                    <p class="delivery-price">6,000₮</p>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                    
+                    <h3>Хүлээн авагчийн мэдээлэл</h3>
+                    <div class="form-group">
+                        <label for="customerName">Таны нэр *</label>
+                        <input type="text" id="customerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerPhone">Утасны дугаар *</label>
+                        <input type="tel" id="customerPhone" required>
+                    </div>
+                    <div class="form-group" id="addressGroup">
+                        <label for="customerAddress">Хүргэх хаяг *</label>
+                        <textarea id="customerAddress" rows="3" placeholder="Дүүрэг, хороо, байр, тоот"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="customerNote">Нэмэлт тайлбар</label>
+                        <textarea id="customerNote" rows="2" placeholder="Захиалгатай холбоотой нэмэлт мэдээлэл (заавал биш)"></textarea>
+                    </div>
+                    
+                    <h3>Захиалгын дэлгэрэнгүй</h3>
+                    <div id="orderSummary" class="order-summary-details">
+                        <!-- Order items will be inserted here -->
+                    </div>
+                    
+                    <div class="order-total">
+                        <div class="summary-row">
+                            <span>Бүтээгдэхүүний дүн:</span>
+                            <span id="orderSubtotal">0₮</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Хүргэлтийн төлбөр:</span>
+                            <span id="orderDelivery">6,000₮</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Нийт төлөх дүн:</span>
+                            <span id="orderTotal">0₮</span>
+                        </div>
+                    </div>
+                    
+                    <h3>Төлбөрийн мэдээлэл</h3>
+                    <div class="payment-info">
+                        <div class="payment-method">
+                            <i class="fas fa-university"></i>
+                            <div class="payment-details">
+                                <h4>Дансанд шилжүүлэх</h4>
+                                <p><strong>Данс:</strong> MN30000500 5166068340</p>
+                                <p><strong>Эзэмшигч:</strong> Б.Долгион</p>
+                                <div class="payment-note-box">
+                                    <p><strong>📝 Гүйлгээний утга:</strong> Захиалга илгээсний дараа үүсэх <strong style="color: #D32F2F;">захиалгын дугаараа</strong> бичнэ үү</p>
+                                    
+                                    <p class="payment-important"><strong>⚠️ Анхаар:</strong> Төлбөр баталгаажсаны дараа хэвлэж эхэлнэ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Pickup Warning -->
+                    <div class="pickup-warning" id="pickupWarning" style="display: none;">
+                        <h4><i class="fas fa-store"></i> Өөрөө авах талаар</h4>
+                        <div class="warning-content">
+                            <p><strong style="color: #D32F2F;">🚫 ШУУД ОЧИЖ АВАХ БОЛОМЖГҮЙ!</strong></p>
+                            <p>Бэлэн болсны дараа бид танд мэдэгдэл илгээх болно. Мэдэгдэл хүлээн авснаар очиж авна уу.</p>
+                            <p><strong>📍 Авах газар:</strong> Соёлж Mall, 2-р давхар, 211 тоот</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Warning Section in Order Form -->
+                    <div class="order-warnings">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Анхааруулга - Заавал уншина уу</h4>
+                        <ul class="warning-list">
+                            <li><i class="fas fa-temperature-high"></i> PLA материал нь халуунд мэдрэмтгий (халуун газар хадгалахгүй)</li>
+                            <li><i class="fas fa-palette"></i> Өнгө нь дэлгэц болон бодит байдалд ялгаатай байж болно</li>
+                            <li><i class="fas fa-ban"></i> Захиалгат хэвлэсний дараа солих/буцаах боломжгүй</li>
+                            <li><i class="fas fa-check-double"></i> Захиалга баталгаажуулахаас өмнө мэдээллээ сайтар шалгана уу</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-check"></i> Захиалга илгээх
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content success-modal">
+            <div class="modal-body">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2>Амжилттай!</h2>
+                <p id="successMessage">Таны захиалга амжилттай илгээгдлээ.</p>
+                <button class="btn btn-primary" onclick="closeSuccessModal()">Хаах</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
